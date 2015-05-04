@@ -141,7 +141,8 @@
 		</ul>
 
 
-		<h2><strong>Porposed Features and Functionality</strong></h2>
+		<h2><strong>Porposed Features and Functionality</strong> <em>(Maldives is a growing market, come 2020 I'll have
+				them on lock down)</em></h2>
 		<ul>
 			<li>Consistent top bar nav menu and bottom contact info on each page.</li>
 			<li>On all pages a simple clickable navigation indicator (eg on the About page it would show this:
