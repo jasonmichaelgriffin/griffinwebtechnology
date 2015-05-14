@@ -9,19 +9,19 @@
 
 		<h1><strong>PWP Milestone 2 Assignment</strong></h1>
 		<p>             Created by:     Jason Griffin<br/>
-		             Created for:    Deep Dive Coding Bootcamp PWP Milestone 2<br/>
-		             Date:           May 3, 2015
-		             URL:            griffinwebtechnology.com
+			Created for:    Deep Dive Coding Bootcamp PWP Milestone 2<br/>
+			Date:           May 3, 2015
+			URL:            griffinwebtechnology.com
 		</p>
 
 
 		<h2><strong>Overview</strong></h2>
 
 		<p>griffinwebtechnology.com will be a professional site which will define my public facing business persona.
-		It will be clutter free, to the point, and buzzword compliant.  It might even have a little “pop” in the Oatmeal
-		sense of the word (probably not though).  The primary two audiences are potential clients and industry contacts
-		(possible collaborators). The site is intended to provide a general overview of my services, experience,
-		personality, and entice people with potential work to contact me.<br/>
+			It will be clutter free, to the point, and buzzword compliant.  It might even have a little “pop” in the Oatmeal
+			sense of the word (probably not though).  The primary two audiences are potential clients and industry contacts
+			(possible collaborators). The site is intended to provide a general overview of my services, experience,
+			personality, and entice people with potential work to contact me.<br/>
 			<br/></p>
 
 		<h2><strong>Personas</strong></h2>
@@ -151,13 +151,5 @@
 			<li>A few nice effects, such as parallax, but only as appropriate and subdued as much as possible.  Just
 				enough to show I have a "nice" website but not in any way distracting</li>
 		</ul>
-
-		<figure>
-			<img src="../images/main_wireframe_page.svg=90" alt="Main Page Wireframe">
-		</figure>
-		<figure>
-			<img src="../images/mobile.svg=90" alt="Mobile Wireframe">
-		</figure>
-
 	</body>
 </html>
