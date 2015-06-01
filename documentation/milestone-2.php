@@ -155,10 +155,10 @@
 		</ul>
 
 		<figure>
-			<img src="../images/main_wireframe_page.jpg" alt="Main Page Wireframe">
+			<img src="../images/main_wireframe_page.svg" alt="Main Page Wireframe">
 		</figure>
 		<figure>
-			<img src="../images/mobile.jpg" alt="Mobile Wireframe">
+			<img src="../images/mobile.svg" alt="Mobile Wireframe">
 		</figure>
 
 	</body>
