@@ -19,7 +19,7 @@ if ($mail_status) { ?>
 	<script language="javascript" type="text/javascript">
 		alert('Thank you for the reaching out to me. I will be contacting you shortly.');
 		//		alter the below location once this is migrated to production
-		window.location = '../draft/in-progress1_1.html';
+		window.location = '../draft/progress1_1.html';
 	</script>
 <?php
 }
