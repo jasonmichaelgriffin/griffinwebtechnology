@@ -1,4 +1,6 @@
 <?php
+
+//TODO add sanitizers, validators, and csrf defenses
 $field_name = $_POST['cf_name'];
 $field_email = $_POST['cf_email'];
 $field_message = $_POST['cf_message'];
