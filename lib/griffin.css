@@ -9,9 +9,9 @@
 .fa-briefcase, .fa-random, .fa-wrench, .fa-male, .fa-coffee, .fa-globe {font-size: 40px ; margin-top: 15px}
 
 
-.fa-instagram {color: black ; margin-left: 20px}
+.fa-instagram, .fa-twitter-square, .fa-youtube-play {color: black ; margin-left: 20px}
 
-.fa-twitter-square {color: black ; margin-left: 20px}
+/*.fa-twitter-square {color: black ; margin-left: 20px}*/
 
 .fa-facebook-square {color: black}
 
@@ -20,6 +20,8 @@
 .contact-section {align-content: center}
 
 .title {margin-bottom: 20px}
+
+.footer {margin-bottom: 20px}
 
 /********************************************
 * Custom CSS Styles for Sample Parallax
