@@ -6,13 +6,8 @@
 
 .glyphicon-home {color: black}
 
-.fa-briefcase {font-size: 40px}
+.fa-briefcase, .fa-random, .fa-wrench, .fa-male, .fa-coffee, .fa-globe {font-size: 40px}
 
-.fa-random {font-size: 40px}
-
-.fa-wrench {font-size: 40px}
-
-.fa-male {font-size: 40px}
 
 .fa-instagram {color: black ; margin-left: 20px}
 
@@ -24,5 +19,283 @@
 
 .contact-section {align-content: center}
 
+.title {margin-bottom: 20px}
+
+/********************************************
+* Custom CSS Styles for Sample Parallax
+* DDC Student Server Class Materials
+* bootcamp-coders.cnm.edu/classmaterials
+*
+* @author rlewis37@cnm.edu
+*
+* TABLE OF CONTENTS
+* ==================
+* 1. Primary Page Base Styles
+* 2. Navigation Styles
+* 3. Footer Syles
+* 4. Flexbox Sticky Footer Styles
+* 5. Slide Toggle Styles
+* 6. Button Styles
+* 7. Centering
+* 8. Font changes
+* 9. Thumbnail Styles
+*
+********************************************/
+
+/********************************************
+* Primary Base Styles
+********************************************/
+/*body {*/
+	/*color: white;*/
+/*}*/
+
+/*a { color: white;}*/
+
+/*this is the background image*/
+/*.bg-sky {*/
+	/*background: url("../images/CloudCover.jpg") no-repeat center top fixed;*/
+	/*background-size: cover;*/
+/*}*/
+
+/*.bg-blue {*/
+	/*background-color: #284271;*/
+/*}*/
+
+/********************************************
+* Navigation Styles
+********************************************/
+.navbar {
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+
+.welcome {
+	text-align: center;
+	vertical-align: middle;
+	padding-bottom: 20px;
+}
+
+.icon-bar {
+	background-color: white;
+}
+
+.cover-heading {
+	text-align: center;
+	font-size: 64px;!important;
+}
+
+.cover-subheading {
+	text-align: center;
+	font-size: 34px;!important;
+}
 
 
+
+
+/*********************************************/
+/** Footer Styles*/
+/*********************************************/
+/*.footer {*/
+	/*padding: 20px 0;*/
+	/*font-color: #284271;*/
+/*}*/
+
+/*********************************************/
+/** Flexbox Sticky Footer*/
+/** http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/*/
+/*********************************************/
+.site {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.site-content {
+	flex: 1;
+	alignment: center;
+}
+
+/********************************************
+* slideToggle Placeholder Styles
+* Edit as you see fit
+********************************************/
+/*.qa-panel {*/
+.para {
+	/*border: 1px solid;*/
+	/*padding: 10px;*/
+	margin-bottom: 5px;
+}
+
+#answer {
+	/*this hides the answer by default*/
+	display: none;
+	padding: 10px;
+	background-color: rgba(40, 66, 113, 0.15);
+}
+#answer2 {
+	/*this hides the answer by default*/
+	display: none;
+	padding: 10px;
+	background-color: rgba(40, 66, 113, 0.15);
+}
+#answer3 {
+	/*this hides the answer by default*/
+	display: none;
+	padding: 10px;
+	background-color: rgba(40, 66, 113, 0.15);
+}
+#question:hover,
+#question2:hover,
+#question3:hover {
+	cursor:pointer;
+}
+
+
+/********************************************
+* Button Styles
+*
+********************************************/
+.cover-button {
+	vertical-align: text-bottom;
+	padding-top: 50px;
+}
+
+.btn {
+	display: inline-block;
+	/*padding: 6px 12px;*/
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	/*padding: 10px 16px;*/
+}
+
+.btn-lg {
+	font-size: 18px;
+	line-height: 1.33;
+	border-radius: 6px;
+	font-color: #ffffff;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: transparent;
+	border-color: white;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+	color: #284271;
+	background-color: transparent;
+	border-color: white;
+}
+
+/********************************************
+* Centering the container
+*
+********************************************/
+#page-container {
+	margin-top: 40px;
+}
+
+.site-content.padding {
+	padding-top: 150px;
+}
+
+/*.centered {*/
+/*position: fixed;*/
+/*top: 50%;*/
+/*left: 50%;*/
+/* bring your own prefixes */
+/*transform: translate(-50%, -50%);*/
+/*}*/
+
+/*********************************************/
+/** Font Changes*/
+/***/
+/*********************************************/
+/*.h1, h1 {*/
+	/*font-size: 64px;*/
+/*}*/
+/*.h1 {*/
+	/*margin-top: 20px;*/
+	/*margin-bottom: 10px;*/
+/*}*/
+/*.h1, .h3, h1, h3 {*/
+	/*font-family: inherit;*/
+	/*font-weight: 300;*/
+	/*line-height: 1.5;*/
+	/*color: #fff;*/
+/*}*/
+
+/*.p {*/
+	/*font-size: 16px;*/
+/*}*/
+
+	/*********************************************/
+	/** Thumbnail Styles*/
+	/***/
+	/*********************************************/
+
+	/*.thumbnail {*/
+		/*display: block;*/
+		/*padding: 4px;*/
+		/*margin-bottom: 20px;*/
+		/*width: 310px;*/
+		/*line-height: 1.42857143;*/
+		/*background-color: transparent;*/
+		/*border: 1px solid #ddd;*/
+		/*border-radius: 4px;*/
+		/*-webkit-transition: border .2s ease-in-out;*/
+		/*-o-transition: border .2s ease-in-out;*/
+		/*transition: border .2s ease-in-out;*/
+	/*}*/
+	/*.thumbnail {*/
+		/*background: transparent;*/
+		/*font-color: #fff;*/
+		/*border-color: transparent;*/
+		/*box-shadow: none;*/
+		/*border-shadow: none;*/
+	/*}*/
+
+	/*body {*/
+		/*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+		/*font-size: 16px;*/
+		/*line-height: 1.42857143;*/
+		/*font-color: #fff;*/
+		/*color: #fff;!important*/
+	/*background-color: transparent;*/
+	/*}*/
+
+	/*.thumbnail .caption {*/
+		/*padding: 0;*/
+		/*color: #fff;!important*/
+		/*alignment: left;*/
+	/*}*/
+
+	/*.p {*/
+		/*color: #fff;*/
+	/*}*/
+	/*.thumbnail >img {*/
+		/*padding-left: 15px;*/
+		/*padding:6px;*/
+		/*margin:0;*/
+		/*border: 3px solid #fff;*/
+	/*}*/
