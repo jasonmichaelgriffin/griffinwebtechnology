@@ -6,7 +6,7 @@
 
 .glyphicon-home {color: black}
 
-.fa-briefcase, .fa-random, .fa-wrench, .fa-male, .fa-coffee, .fa-globe {font-size: 40px}
+.fa-briefcase, .fa-random, .fa-wrench, .fa-male, .fa-coffee, .fa-globe {font-size: 40px ; margin-top: 15px}
 
 
 .fa-instagram {color: black ; margin-left: 20px}
@@ -78,8 +78,8 @@
 	padding-bottom: 20px;
 }
 
-.icon-bar {
-	background-color: white;
+/*.icon-bar {*/
+	/*background-color: white;*/
 }
 
 .cover-heading {

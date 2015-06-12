@@ -85,15 +85,16 @@
 						</button>
 
 						<!-- griffin picture -->
-						<a class="navbar-brand" href="/"><img src="../images/logo.png" width="98" height="80" alt="griffin" class="logo"></a>
+						<a class="navbar-brand question question2 question3"><img src="../images/logo.png" width="98" height="80" alt="griffin" class="logo"></a>
 					</div>
 
 					<!-- nav links start here -->
 					<div class="collapse navbar-collapse" id="navbar-collapsed">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="/"><span class="glyphicon glyphicon-home"></span></a></li>
-							<li><a class="menu" href="#services">About </a></li>
-							<li><a class="menu" href="#contact">Contact </a></li>
+							<!--<li><a href="/"><span class="glyphicon glyphicon-home"></span></a></li>-->
+							<li><a class="menu question" href="#services">Services </a></li>
+							<li><a class="menu question2" href="#about">About</a></li>
+							<li><a class="menu question3" href="#contact">Contact </a></li>
 						</ul>
 					</div>
 				</div>
@@ -110,9 +111,9 @@
 			<!-- services -->
 			<div id="services" name="services">
 				<div class="container">
-					<h2 class="title text-center">what can i do for you?</h2>
+					<h2 class="title text-center para question">what can i do for you?</h2>
 
-					<div class="row">
+					<div class="row para" id="answer">
 						<div class="col-sm-4 service">
 
 							<!-- management icon -->
@@ -121,7 +122,7 @@
 							<h3>management services</h3>
 
 							<p>
-								i'll manage your stuff.  <br class="hidden-xs">
+								i'll manage your stuff.  <br class="hidden-xs hidden-sm">
 								i've managed other stuff.   <br class="hidden-xs hidden-sm">
 								some stuff needs managing... <br class="hidden-xs hidden-sm">
 								...such as this stuff.
@@ -165,9 +166,9 @@
 
 			<div id="about" name="about">
 				<div class="container">
-					<h2 class="title text-center">who is jason griffin?<br></h2>
+					<h2 class="title text-center question2">who is jason griffin?<br></h2>
 
-					<div class="row">
+					<div class="row" id="answer2">
 						<div class="col-sm-4 service">
 							<!--insert rad icon here-->
 							<i class="fa fa-male"></i>
@@ -221,8 +222,9 @@
 		<!--contact info-->
 		<div class="container">
 			<div class="row" >
+				<h2 class="text-center question3">contact me</h2>
+				<div id="answer3">
 				<div id="contact" name="contact" class="text-center">
-					<h3>contact me</h3>
 					<!--note: alter the below contact path to be /php/contact.php after migrating the site to the home directory-->
 					<form action="../php/contact.php" method="post">
 						your name<br>
@@ -241,30 +243,18 @@
 						<input type="reset" value="clear">
 					</form>
 				</div>
+				</div>
 			</div>
 		</div>
 
 		</main>
 
-		<!--<div class="para" id="question">-->
-			<!--<p>From concept to rollout, I help organizations that strive to benefit the world, and artists who need to share their creativity.<br />-->
-				<!--Click for more...</p>-->
-		<!--</div>-->
 
-		<!--&lt;!&ndash;This is the addition info toggle&ndash;&gt;-->
-		<!--<div class="para" id="answer">-->
-			<!--<p><strong>Projects:</strong></p>-->
-			<!--<ul>-->
-				<!--<li>Frood – a Deep Dive Coding Bootcamp capstone project with legs! Partners: Tim Deshler, Jason Griffin, Ella Haines.</li>-->
-				<!--<li>LOrchard.com – a web development promotional site.</li>-->
-				<!--<li>LauraOrchard.com – a fine art portfolio site.</li>-->
-				<!--<li>Currently I offer streamlined portfolio sites for indie creatives on a WordPress or Bootstrap platform.  Contact me if you have creative inventory you’d like to have digitally displayed.</li>-->
-			<!--</ul>-->
-		<!--</div>-->
 
 		<!-- footer -->
 		<!--insert a section line break here-->
 		<footer>
+			<hr class="titleline text-left">
 			<div id="footer">
 				<div class="container">
 					<div class="row">
