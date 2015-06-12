@@ -14,10 +14,15 @@
 
 .fa-male {font-size: 40px}
 
-.fa-instagram {color: black}
+.fa-instagram {color: black ; margin-left: 20px}
 
-.fa-twitter-square {color: black}
+.fa-twitter-square {color: black ; margin-left: 20px}
 
 .fa-facebook-square {color: black}
 
-.footer {text-align: center}
+.footertext {text-align: center}
+
+.contact-section {align-content: center}
+
+
+
