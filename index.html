@@ -1,12 +1,8 @@
-
-
-
 <!DOCTYPE html>
 <html>
 	<head lang="en">
 
 
-		<!--This is the latest-->
 
 		<!--Meta-->
 		<meta charset="UTF-8">
@@ -14,7 +10,6 @@
 		 jasonmichaelgriffin, webdesign, projectmanagement, jason, management, support">
 		<meta name="description" content="Jason Griffin Online Business Card">
 		<meta name="author" content="Jason Griffin">
-
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
@@ -43,32 +38,23 @@
 		<script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
 		<script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/additional-methods.min.js"></script>
 
-
 		<!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
 		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
 		<!--Custom js-->
 		<script type="text/javascript" src="/lib/griffin.js"></script>
 
-
 		<!--Favicon-->
 		<link rel="shortcut icon" href="../images/griffin.ico" type="image/x-icon"/>
 
-		<!--Header-->
-		<div id="header" name="header">
-		</div>
 
-		<!--Insert Google Analytics-->
+		<!--Future Task: Insert Google Analytics-->
 		<!--//www.google-analytics.com/analytics.js-->
 
-
 	</head>
-
-
 	<body>
 
-
-		<!-- nav -->
+		<!-- nav bar -->
 		<header>
 			<nav class="navbar">
 				<div class="container">
@@ -84,7 +70,7 @@
 							<span class="icon-bar"></span>
 						</button>
 
-						<!-- griffin picture -->
+						<!-- griffin logo -->
 						<a class="navbar-brand question question2 question3"><img src="../images/logo.png" width="98" height="80" alt="griffin" class="logo"></a>
 					</div>
 
@@ -102,17 +88,18 @@
 		</header>
 
 		<main>
+
 		<!-- wrapper -->
-		<!--for user later-->
+		<!--for future use-->
 		<div id="wrapper" name="wrapper">
 
+			<!--section break-->
 			<hr class="titleline text-left">
 
 			<!-- services -->
 			<div id="services" name="services">
 				<div class="container">
 					<h2 class="title text-center para question">what can i do for you?</h2>
-
 					<div class="row para" id="answer">
 						<div class="col-sm-4 service">
 
@@ -120,7 +107,6 @@
 							<span><p><i class="fa fa-briefcase"></i></p></span>
 
 							<h3>management services</h3>
-
 							<p>
 								implementation   <br class="hidden-xs hidden-sm">
 								i've managed other stuff.   <br class="hidden-xs hidden-sm">
@@ -130,11 +116,10 @@
 						</div>
 
 						<div class="col-sm-4 service">
+
 							<!--process icon-->
 							<i class="fa fa-random"></i>
-
 							<h3>process</h3>
-
 							<p>
 								process definition.  <br class="hidden-sm">
 								scalable support models.  <br class="hidden-xs hidden-sm">
@@ -146,9 +131,7 @@
 						<div class="col-sm-4 service">
 							<!-- web development -->
 							<i class="fa fa-wrench"></i>
-
 							<h3>web development</h3>
-
 							<p>
 								web pages! get yer web pages! <br class="hidden-xs hidden-sm">
 								you look like someone who needs a web page! <br class="hidden-xs hidden-sm">
@@ -160,21 +143,20 @@
 				</div>
 			</div>
 
+			<!--section break-->
 			<hr class="titleline text-left">
 
 			<!--about-->
-
 			<div id="about" name="about">
 				<div class="container">
 					<h2 class="title text-center question2">who is jason griffin?<br></h2>
 
 					<div class="row" id="answer2">
 						<div class="col-sm-4 service">
-							<!--insert rad icon here-->
+
+							<!--person icon-->
 							<i class="fa fa-male"></i>
-
 							<h3>the man</h3>
-
 							<p>
 								this guy<br class="hidden-xs">
 								plays well with others.  <br class="hidden-xs hidden-sm">
@@ -184,10 +166,10 @@
 						</div>
 
 						<div class="col-sm-4 service">
-							<!--awesome icon-->
+
+							<!--globe icon-->
 							<i class="fa fa-globe"></i>
 							<h3>the myth</h3>
-
 							<p>
 								born on a moonless night.  <br class="hidden-sm">
 								very colorful.  <br class="hidden-xs hidden-sm">
@@ -197,11 +179,10 @@
 						</div>
 
 						<div class="col-sm-4 service">
+
 							<!--coffee icon-->
 							<i class="fa fa-coffee"></i>
-
 							<h3>the legend</h3>
-
 							<p>
 								speaks one language, poorly.  <br class="hidden-xs hidden-sm">
 								can stay awake through any opera.  <br class="hidden-xs hidden-sm">
@@ -213,32 +194,33 @@
 				</div>
 			</div>
 
-
 			<!-- end wrapper -->
 		</div>
 
-		<hr class="titleline text-left">
+			<!--section break-->
+			<hr class="titleline text-left">
 
-		<!--contact info-->
+		<!--contact form-->
 		<div class="container">
 			<div class="row" >
 				<h2 class="text-center question3">contact me</h2>
 				<div id="answer3">
 				<div id="contact" name="contact" class="text-center">
-					<!--note: alter the below contact path to be /php/contact.php after migrating the site to the home directory-->
 					<form action="../php/contact.php" method="post">
+
+						<!--name label and field-->
 						your name<br>
-						<!--<label class="your name">-->
 						<input type="text" name="cf_name"><br>
-						<!--</label>-->
+
+						<!--email label and field-->
 						your e-mail<br>
-						<!--<label class="your email">-->
 						<input type="text" name="cf-email"><br>
-						<!--</label>-->
+
+						<!--message label and field-->
 						message<br>
-						<!--<label class="your message">-->
 						<textarea name="cf_message"></textarea><br>
-						<!--</label>-->
+
+						<!--submit button-->
 						<input type="submit" value="send">
 						<input type="reset" value="clear">
 					</form>
@@ -252,9 +234,12 @@
 
 
 		<!-- footer -->
-		<!--insert a section line break here-->
 		<footer class="footer">
+
+			<!--section break-->
 			<hr class="titleline text-left">
+
+			<!--footer text-->
 			<div id="footer">
 				<div class="container">
 					<div class="row">
@@ -280,10 +265,6 @@
 			</div>
 		</footer>
 
-
-
-		<!-- end footer -->
-
 	</body>
 
 	<!--TODO insert attribution-->
@@ -297,7 +278,7 @@
 </html>
 
 
-<!--Splash Page-->
+<!--Splash Page, uncomment this and comment out all above if the splash page is needed-->
 <!--<!DOCTYPE html>-->
 <!--<html>-->
 <!--<head lang="en">-->
